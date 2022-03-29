@@ -6,7 +6,7 @@
 Production Docker for Laravel 8+
 
 
-### How To
+### How To Build Your Own Image
 - you can pull this repository and update laravel
 - to build Docker image use this command: docker build -t larapro:latest .
 - to test the local image: docker run -d -p 80:80 larapro:latest
@@ -36,6 +36,10 @@ docker run -d --name laravel -p 80:80 -v /var/www/html/myapp:/var/www larapro:la
 - nginx
 - php8-fpm
 - supervisor
+
+installation setting are in Dockerfile
+
+configuration are in docker folder
 
 ## Contributor
 
