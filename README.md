@@ -23,9 +23,11 @@ command: docker pull efreethinx/larapro
 ### Make Container
 
 if you want to make new Container and choose your own working folder use this command:
-docker run -d --name NameOfNewContainer -p 80:80 -v /PathOfWorkingDirectory:/PathOnContainer ImageName:latest
 
-ex: docker run -d --name laravel -p 80:80 -v /var/www/html/myapp:/var/www larapro:latest
+docker run -d --name NewContainerName -p 80:80 -v /WorkingDirectory:/PathOnContainer ImageName:latest
+
+example:
+docker run -d --name laravel -p 80:80 -v /var/www/html/myapp:/var/www larapro:latest
 
 - make sure port 80 not being used
 
