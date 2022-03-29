@@ -27,9 +27,10 @@ if you want to make new Container and choose your own working folder use this co
 docker run -d --name NewContainerName -p 80:80 -v /WorkingDirectory:/PathOnContainer ImageName:latest
 
 example:
+
 docker run -d --name laravel -p 80:80 -v /var/www/html/myapp:/var/www larapro:latest
 
-- make sure port 80 not being used
+***make sure port 80 not being used
 
 ## Include
 - nginx
