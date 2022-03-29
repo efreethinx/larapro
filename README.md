@@ -43,4 +43,4 @@ configuration are in docker folder
 
 ## Contributor
 
-Dede Iyan Supardi, S.T.
+Dede Iyan Supardi, S.T. - github.com/efreethinx
